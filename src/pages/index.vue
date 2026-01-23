@@ -1,28 +1,12 @@
+<script setup lang="ts">
+import Hero from '../layouts/Hero.vue';
+
+</script>
+
 <template>
   <div>
-    <UPageHero
-      title="Vue Starter Template"
-      description="A production-ready starter template powered by Nuxt UI. Build beautiful, accessible, and performant applications in minutes, not hours."
-      :links="[{
-        label: 'Get started',
-        to: 'https://ui.nuxt.com/docs/getting-started/installation/vue',
-        target: '_blank',
-        trailingIcon: 'i-lucide-arrow-right',
-        size: 'xl'
-      }, {
-        label: 'Use this template',
-        to: 'https://github.com/nuxt-ui-templates/starter-vue',
-        target: '_blank',
-        icon: 'simple-icons:github',
-        size: 'xl',
-        color: 'neutral',
-        variant: 'subtle'
-      }]"
-    />
-
-    <UPageSection
-      id="features"
-      title="Everything you need to build modern Vue apps"
+    <Hero />
+    <UPageSection id="features" title="Everything you need to build modern Vue apps"
       description="Start with a solid foundation. This template includes all the essentials for building production-ready applications with Nuxt UI's powerful component system."
       :features="[{
         icon: 'i-lucide-rocket',
@@ -48,15 +32,12 @@
         icon: 'i-lucide-shield-check',
         title: 'Built for scale',
         description: 'Modern Vue 3 architecture with Composition API, proper error handling, and security best practices built-in.'
-      }]"
-    />
+      }]" />
 
     <UPageSection>
-      <UPageCTA
-        title="Ready to build your next Vue app?"
+      <UPageCTA title="Ready to build your next Vue app?"
         description="Join thousands of developers building with Vue and Nuxt UI. Get this template and start shipping today."
-        variant="subtle"
-        :links="[{
+        variant="subtle" :links="[{
           label: 'Start building',
           to: 'https://ui.nuxt.com/docs/getting-started/installation/vue',
           target: '_blank',
@@ -69,8 +50,7 @@
           icon: 'simple-icons:github',
           color: 'neutral',
           variant: 'outline'
-        }]"
-      />
+        }]" />
     </UPageSection>
   </div>
 </template>
