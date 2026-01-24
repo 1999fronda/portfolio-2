@@ -1,11 +1,13 @@
-<template>
-    <UPageHero title="Hi, I am Emmanuel">
-        <template #description>
-            <div class="w-full max-w-5xl mx-auto">
-                A full-stack developer with a strong focus on Laravel, building clean,
-                scalable, and user-focused web applications.
-            </div>
+<script setup lang="ts">
+import { useUserStore } from '../stores/user';
 
+const userStore = useUserStore()
+</script>
+
+<template>
+    <UPageHero :title="`Hi, I am ${userStore.user.firstName}`" :ui="{ container: 'max-w-4xl' }">
+        <template #description>
+            {{ userStore.user.bio }}
         </template>
 
         <template #links>
