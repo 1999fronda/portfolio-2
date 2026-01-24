@@ -1,8 +1,12 @@
-@import "tailwindcss";
-@import "@nuxt/ui";
+/* @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap'); */
+@import url('https://api.fontshare.com/v2/css?f[]=clash-grotesk@400,500,700&display=swap');
+@import 'tailwindcss';
+@import '@nuxt/ui';
 
 @theme static {
-  --font-sans: 'Public Sans', sans-serif;
+  --font-sans: 'Clash Grotesk', sans-serif;
+  /* --font-sans: 'Public Sans', sans-serif; */
+  /* --font-sans: 'Bricolage Grotesque', sans-serif; */
 
   --color-green-50: oklch(90.98% 0.04338 166.72);
   --color-green-100: oklch(88.46% 0.05417 166.29);
@@ -14,6 +18,15 @@
   --color-green-700: oklch(45.657% 0.08188 161.06);
   --color-green-800: oklch(32.298% 0.05338 161.83);
   --color-green-900: oklch(17.276% 0.02184 161.78);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-medium;
 }
 
 .dark {
