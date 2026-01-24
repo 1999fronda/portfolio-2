@@ -6,15 +6,15 @@
     "target": "_blank"
   },
   {
-    "name": "GitHub",
-    "href": "https://github.com/1999fronda",
-    "icon": "github",
-    "target": "_blank"
-  },
-  {
     "name": "Gmail",
     "href": "mailto:episcope.emmanuelf@gmail.com",
     "icon": "gmail",
     "target": "_self"
+  },
+  {
+    "name": "GitHub",
+    "href": "https://github.com/1999fronda",
+    "icon": "github",
+    "target": "_blank"
   }
 ]
