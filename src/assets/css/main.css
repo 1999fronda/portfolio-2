@@ -32,3 +32,7 @@ h6 {
 .dark {
   --ui-primary: var(--ui-color-primary-500);
 }
+
+.underline-primary {
+  @apply underline decoration-green-500;
+}

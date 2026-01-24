@@ -11,10 +11,13 @@ const userStore = useUserStore()
         </template>
         <template #description>
             <p class="mb-5">
-                I’m {{ userStore.fullName }}, a {{ userStore.user.title }} with a strong focus on Laravel. I’ve built
+                I’m <span class="font-medium">{{ userStore.fullName }}</span>, a <span class="font-medium">{{
+                    userStore.user.title }}</span> with a
+                strong focus on <span class="font-medium">Laravel</span>. I’ve built
                 multiple university-wide
                 web
-                applications and currently use with Vue.js to create modern, dynamic frontends. I’m passionate about
+                applications and currently use with <span class="font-medium">Vue.js</span> to create modern, dynamic
+                frontends. I’m passionate about
                 learning new technologies and continuously improving my craft.
             </p>
             <p>

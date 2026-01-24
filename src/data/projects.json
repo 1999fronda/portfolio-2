@@ -1,0 +1,67 @@
+[
+  {
+    "id": "clsu-cat",
+    "title": "CLSU College Admission Test Online Application System",
+    "date": "2021",
+    "role": "Full-Stack Developer",
+    "image": "clsucat mockup.png",
+    "description": "A web-based admissions portal that transformed the traditional in-person process into a fully online system.",
+    "contributions": [
+      "Designed and developed the entire system using PHP, JavaScript, MySQL, and REST API.",
+      "Built an end-to-end online application workflow, replacing manual, paper-based submissions.",
+      "Integrated Gemini API for AI-powered photo verification to ensure applicants met strict ID photo requirements.",
+      "Optimized user experience for accessibility, reducing manual workload and eliminating long queues."
+    ],
+    "tech": [
+      { "name": "PHP" },
+      { "name": "JavaScript" },
+      { "name": "MySQL" },
+      { "name": "REST API" },
+      { "name": "Gemini API" }
+    ],
+    "impact": "Increased the number of applicants each year, breaking all-time student application records."
+  },
+  {
+    "id": "clsu-tfs",
+    "title": "CLSU Thesis/Dissertation Formatting Systems",
+    "date": "2023",
+    "role": "Full-Stack Developer",
+    "image": "tfs mockup.png",
+    "description": "A document processing tool that automatically applied official university formatting guidelines to academic manuscripts.",
+    "contributions": [
+      "Built a formatting system with Laravel, PHP, JavaScript, MySQL, and REST API.",
+      "Enabled students to create manuscripts and instantly generate format-compliant versions, removing dependency on third-party formatting services.",
+      "Reduced faculty review time by ensuring submissions adhered to official formatting requirements."
+    ],
+    "tech": [
+      { "name": "PHP" },
+      { "name": "Laravel" },
+      { "name": "JavaScript" },
+      { "name": "MySQL" },
+      { "name": "REST API" }
+    ],
+    "impact": "Eliminated the need for students to pay third-party services for thesis formatting."
+  },
+  {
+    "id": "clsu-pfe",
+    "title": "CLSU Faculty Performance Evaluation System",
+    "date": "2025",
+    "role": "Full-Stack Developer",
+    "image": "evaluation mockup.png",
+    "description": "A modernized platform for conducting faculty performance evaluations and generating real-time reports.",
+    "contributions": [
+      "Rebuilt and maintained the evaluation platform using Laravel, PHP, JavaScript, MySQL, and REST API.",
+      "Designed and implemented a normalized database schema for scalability and improved performance.",
+      "Delivered real-time evaluation reports, reducing manual work for administrators and improving decision-making.",
+      "(Legacy System Contribution) Integrated Gemini API to summarize faculty evaluation feedback, enhancing report readability."
+    ],
+    "tech": [
+      { "name": "PHP" },
+      { "name": "Laravel" },
+      { "name": "JavaScript" },
+      { "name": "MySQL" },
+      { "name": "REST API" }
+    ],
+    "impact": "Streamlined evaluation workflow and improved accessibility of faculty evaluation data."
+  }
+]

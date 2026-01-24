@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Hero from '../components/Hero.vue';
 import About from '../components/About.vue';
+import Projects from '../components/Projects.vue';
 
 </script>
 
@@ -8,6 +9,7 @@ import About from '../components/About.vue';
   <div>
     <Hero />
     <About />
+    <Projects />
     <UPageSection id="features" title="Everything you need to build modern Vue apps"
       description="Start with a solid foundation. This template includes all the essentials for building production-ready applications with Nuxt UI's powerful component system."
       :features="[{
