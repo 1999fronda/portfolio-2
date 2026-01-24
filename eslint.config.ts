@@ -1,6 +1,7 @@
 import js from '@eslint/js'
 import eslintPluginVue from 'eslint-plugin-vue'
 import ts from 'typescript-eslint'
+import prettier from 'eslint-plugin-prettier'
 
 export default ts.config(
   js.configs.recommended,
@@ -13,8 +14,12 @@ export default ts.config(
         parser: '@typescript-eslint/parser'
       }
     },
+    plugin: {
+      prettier
+    },
     rules: {
-      'vue/multi-word-component-names': 'off'
-    }
+      'vue/multi-word-component-names': 'off',
+      'prettier/prettier': 'error',
+    },
   }
 )
