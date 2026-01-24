@@ -1,0 +1,37 @@
+{
+  "frontend": {
+    "title": "Frontend",
+    "tech": [
+      { "name": "HTML", "icon": "i-devicon-html5" },
+      { "name": "CSS", "icon": "i-devicon-css3" },
+      { "name": "JavaScript", "icon": "i-devicon-javascript" },
+      { "name": "jQuery", "icon": "i-devicon-jquery" },
+      { "name": "Vue.js", "icon": "i-material-icon-theme:vue" },
+      { "name": "Inertia.js", "icon": "i-heroicons-rocket-launch" },
+      { "name": "Bootstrap", "icon": "i-devicon-bootstrap" },
+      { "name": "Tailwind CSS", "icon": "i-devicon-tailwindcss" }
+    ]
+  },
+  "backend": {
+    "title": "Backend and Databases",
+    "tech": [
+      { "name": "PHP", "icon": "i-devicon-php" },
+      { "name": "Laravel", "icon": "i-devicon-laravel" },
+      { "name": "Java", "icon": "i-devicon-java" },
+      { "name": "MySQL", "icon": "i-devicon-mysql" },
+      { "name": "MongoDB", "icon": "i-devicon-mongodb" },
+      { "name": "API", "icon": "i-heroicons-link" }
+    ]
+  },
+  "others": {
+    "title": "Other Tools",
+    "tech": [
+      { "name": "Git", "icon": "i-devicon-git" },
+      { "name": "GitHub", "icon": "i-devicon-github" },
+      { "name": "VS Code", "icon": "i-devicon-vscode" },
+      { "name": "Postman", "icon": "i-devicon-postman" },
+      { "name": "Figma", "icon": "i-devicon-figma" },
+      { "name": "Vite", "icon": "i-devicon-vitejs" }
+    ]
+  }
+}
