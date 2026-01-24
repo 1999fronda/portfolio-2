@@ -4,6 +4,9 @@ import projects from '../data/projects.json';
 
 <template>
     <UPageSection id="projects" title="Projects" :ui="{ container: 'max-w-5xl' }">
+        <template #description>
+            Real-world projects I built from the ground up, handling both backend and frontend development.
+        </template>
         <UPageCard v-for="project, i in projects" :key="i" variant="outline" orientation="horizontal" spotlight
             spotlight-color="primary" :reverse="i % 2 === 0" :ui="{ title: 'font-medium text-xl' }">
             <template #title>
