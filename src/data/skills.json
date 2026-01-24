@@ -9,7 +9,8 @@
       { "name": "Vue.js", "icon": "i-material-icon-theme:vue" },
       { "name": "Inertia.js", "icon": "i-heroicons-rocket-launch" },
       { "name": "Bootstrap", "icon": "i-devicon-bootstrap" },
-      { "name": "Tailwind CSS", "icon": "i-devicon-tailwindcss" }
+      { "name": "Tailwind CSS", "icon": "i-devicon-tailwindcss" },
+      { "name": "Jetpack Compose", "icon": "i-devicon-jetpackcompose" }
     ]
   },
   "backend": {
@@ -17,10 +18,11 @@
     "tech": [
       { "name": "PHP", "icon": "i-devicon-php" },
       { "name": "Laravel", "icon": "i-devicon-laravel" },
-      { "name": "Java", "icon": "i-devicon-java" },
+      { "name": "Node.js", "icon": "i-devicon-nodejs" },
+      { "name": "Kotlin", "icon": "i-devicon-kotlin" },
       { "name": "MySQL", "icon": "i-devicon-mysql" },
       { "name": "MongoDB", "icon": "i-devicon-mongodb" },
-      { "name": "API", "icon": "i-heroicons-link" }
+      { "name": "REST API", "icon": "i-heroicons-link" }
     ]
   },
   "others": {
@@ -29,6 +31,7 @@
       { "name": "Git", "icon": "i-devicon-git" },
       { "name": "GitHub", "icon": "simple-icons:github" },
       { "name": "VS Code", "icon": "i-devicon-vscode" },
+      { "name": "Android Studio", "icon": "i-devicon-androidstudio" },
       { "name": "Postman", "icon": "i-devicon-postman" },
       { "name": "Figma", "icon": "i-devicon-figma" },
       { "name": "Vite", "icon": "i-devicon-vitejs" }
