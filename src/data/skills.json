@@ -27,7 +27,7 @@
     "title": "Other Tools",
     "tech": [
       { "name": "Git", "icon": "i-devicon-git" },
-      { "name": "GitHub", "icon": "i-devicon-github" },
+      { "name": "GitHub", "icon": "simple-icons:github" },
       { "name": "VS Code", "icon": "i-devicon-vscode" },
       { "name": "Postman", "icon": "i-devicon-postman" },
       { "name": "Figma", "icon": "i-devicon-figma" },
