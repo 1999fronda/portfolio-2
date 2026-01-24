@@ -15,7 +15,8 @@ const userStore = useUserStore()
             <div class="flex gap-2 justify-center mt-10">
                 <UButton :to="'/resume.pdf'" download target="_blank" label="Resume" icon="i-lucide-arrow-down"
                     size="xl" color="neutral" variant="subtle" class="cursor-pointer" />
-                <UButton label="Let's connect" size="xl" color="primary" variant="solid" class="cursor-pointer" />
+                <UButton label="Let's connect" :to="'mailto:' + userStore.user.email" size="xl" color="primary"
+                    variant="solid" class="cursor-pointer" />
             </div>
         </template>
 

@@ -5,6 +5,7 @@ export const useUserStore = defineStore('user', () => {
   const user = reactive({
     firstName: 'Emmanuel',
     lastName: 'Episcope',
+    email: 'episcope.emmanuelf@gmail.com',
     title: 'Full-Stack Developer',
     bio: 'A full-stack developer with a strong focus on Laravel, building clean,scalable, and user-focused web applications.',
   })
