@@ -11,8 +11,7 @@ import projects from '../data/projects.json';
             </template>
             <template #description>
                 <div>
-                    A web-based admissions portal that transformed the traditional in-person process into a fully online
-                    system.
+                    {{ project.description }}
                 </div>
                 <div class="mt-3">
                     <ULink to="/test" class="text-secondary">View project</ULink>
