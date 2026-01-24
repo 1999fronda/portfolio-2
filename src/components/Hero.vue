@@ -7,7 +7,9 @@ const userStore = useUserStore()
 <template>
     <UPageHero :title="`Hi, I am ${userStore.user.firstName}`" :ui="{ container: 'max-w-4xl' }">
         <template #description>
-            {{ userStore.user.bio }}
+            A <span class="text-primary">{{ userStore.user.title }}</span> with a strong focus on Laravel, building
+            clean,scalable, and user-focused web
+            applications.
         </template>
 
         <template #links>

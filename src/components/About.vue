@@ -11,7 +11,7 @@ const userStore = useUserStore()
         </template>
         <template #description>
             <p class="mb-5">
-                I’m {{ userStore.fullName }}, a Full-Stack Developer with a strong focus on Laravel. I’ve built
+                I’m {{ userStore.fullName }}, a {{ userStore.user.title }} with a strong focus on Laravel. I’ve built
                 multiple university-wide
                 web
                 applications and currently use with Vue.js to create modern, dynamic frontends. I’m passionate about
