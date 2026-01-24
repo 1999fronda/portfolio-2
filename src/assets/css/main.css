@@ -36,3 +36,9 @@ h6 {
 .underline-primary {
   @apply underline decoration-green-500;
 }
+
+::selection {
+  /* Using Tailwind color utilities as CSS variables */
+  background-color: theme('colors.primary.500');
+  color: theme('colors.white');
+}
