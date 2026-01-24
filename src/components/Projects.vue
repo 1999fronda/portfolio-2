@@ -8,7 +8,7 @@ import projects from '../data/projects.json';
             Real-world projects I built from the ground up, handling both backend and frontend development.
         </template>
         <UPageCard v-for="project, i in projects" :key="i" variant="outline" orientation="horizontal" spotlight
-            spotlight-color="primary" :reverse="i % 2 === 0" :ui="{ title: 'font-medium text-xl' }">
+            :reverse="i % 2 === 0" :ui="{ title: 'font-medium text-xl' }">
             <template #title>
                 {{ project.title }}
             </template>
