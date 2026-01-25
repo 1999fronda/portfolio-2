@@ -16,10 +16,10 @@ const userStore = useUserStore()
                 opacity: 1,
                 y: 0
             }" :transition="{
-                duration: 0.5,
+                duration: 0.4,
                 delay: 0.1
             }">
-                Hi, I am {{ userStore.user.firstName }}
+                Hi, I am <span class="text-primary">{{ userStore.user.firstName }}</span>
             </Motion>
         </template>
         <template #description>
@@ -30,7 +30,7 @@ const userStore = useUserStore()
                 opacity: 1,
                 y: 0
             }" :transition="{
-                duration: 0.5,
+                duration: 0.4,
                 delay: 0.2
             }">
                 A <span class="text-primary">{{ userStore.user.title }}</span> with a strong focus on Laravel, building
@@ -44,7 +44,7 @@ const userStore = useUserStore()
                 opacity: 1,
                 y: 0
             }" :transition="{
-                duration: 0.5,
+                duration: 0.4,
                 delay: 0.3
             }">
                 <div class="flex gap-2 justify-center mt-10">
@@ -65,7 +65,7 @@ const userStore = useUserStore()
                     opacity: 1,
                     y: 0
                 }" :transition="{
-                    duration: 0.5,
+                    duration: 0.4,
                     delay: 0.4 + i * 0.08
                 }">
                     <UButton :to="social.href" :target="social.target" :icon="`simple-icons:${social.icon}`"
