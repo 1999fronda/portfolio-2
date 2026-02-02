@@ -22,9 +22,9 @@ const { isMedium } = useScreen()
                     <div class="overflow-hidden">
                         {{ project.description }}
                     </div>
-                    <!-- <div class="mt-3">
-                        <ULink to="/test" class="text-secondary">View project</ULink>
-                    </div> -->
+                    <div class="mt-3">
+                        <ULink :to="`/project/${project.id}`" class="text-secondary">View project</ULink>
+                    </div>
                     <div class="flex gap-1 mt-3 flex-wrap">
                         <UButton v-for="skill, i in project.tech" :key="i" :label="skill.name" variant="subtle"
                             size="sm" />

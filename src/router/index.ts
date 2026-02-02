@@ -8,6 +8,7 @@ const router = createRouter({
       component: () => import('../pages/notFound.vue'),
     },
     { path: '/', component: () => import('../pages/index.vue') },
+    { path: '/project/:id', component: () => import('../pages/project.vue') },
   ],
   history: createWebHistory(),
   scrollBehavior(to, from, savedPosition) {

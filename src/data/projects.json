@@ -5,7 +5,7 @@
     "date": "2021",
     "role": "Full-Stack Developer",
     "image": "clsucat mockup.png",
-    "description": "A web-based admissions portal that transformed the traditional in-person process into a fully online system.",
+    "description": "A web-based application system that enables prospective students to apply for the CLSU College Admission Test by submitting personal information, academic details, and required documents online. The system streamlines the application process, improves data accuracy, and supports efficient admission screening.",
     "contributions": [
       "Designed and developed the entire system using PHP, JavaScript, MySQL, and REST API.",
       "Built an end-to-end online application workflow, replacing manual, paper-based submissions.",
@@ -48,7 +48,7 @@
     "date": "2025",
     "role": "Full-Stack Developer",
     "image": "evaluation mockup.png",
-    "description": "A modernized platform for conducting faculty performance evaluations and generating real-time reports.",
+    "description": "A web-based system designed to automate faculty performance evaluation by recording and managing evaluation data. The system improves efficiency, ensures data consistency, and supports academic decision-making.",
     "contributions": [
       "Rebuilt and maintained the evaluation platform using Laravel, PHP, JavaScript, MySQL, and REST API.",
       "Designed and implemented a normalized database schema for scalability and improved performance.",
