@@ -9,7 +9,7 @@ Experienced with REST APIs, third-party API integrations, and basic AI features.
 
 - PHP, Laravel, MySQL
 - HTML, CSS, JavaScript, Vue.js, Bootstrap, TailwindCSS
-- Node.js
+- Node.js (basic)
 - REST APIs
 
 ### Learning
