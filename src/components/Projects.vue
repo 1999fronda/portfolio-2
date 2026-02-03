@@ -20,17 +20,19 @@ const { isMedium } = useScreen()
                 </template>
                 <template #description>
                     <div class="overflow-hidden">
-                        {{ project.description }}
+                        {{ project.summary }}
                     </div>
                     <div class="mt-3">
-                        <ULink :to="`/project/${project.id}`" class="text-secondary">View project</ULink>
+                        <UButton :to="`/projects/${project.id}`" trailing-icon="i-lucide-arrow-right" variant="link">
+                            View
+                            project</UButton>
                     </div>
                     <div class="flex gap-1 mt-3 flex-wrap">
-                        <UButton v-for="skill, i in project.tech" :key="i" :label="skill.name" variant="subtle"
-                            size="sm" />
+                        <UButton v-for="skill, i in project.tech" :key="i" :label="skill.name" variant="soft"
+                            color="neutral" size="sm" />
                     </div>
                 </template>
-                <ULink to="/test" class="block min-w-0">
+                <ULink :to="`/projects/${project.id}`" class="block min-w-0">
                     <img :src="'/images/' + project.image" alt="Tailwind CSS" class="w-full h-auto" />
                 </ULink>
             </UPageCard>

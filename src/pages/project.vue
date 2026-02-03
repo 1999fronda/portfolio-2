@@ -1,10 +1,18 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
+import projects from '../data/projects.json';
+import { computed } from 'vue';
+import Project from '../components/Project.vue';
+import NotFound from './notFound.vue';
 
 const route = useRoute()
-console.log(route);
+
+const project = computed(() => {
+    return projects.find(p => p.id === route.params.id)
+})
 </script>
 
 <template>
-    this is a project page. {{ $route }}
+    <Project v-if="project" :project />
+    <NotFound v-else />
 </template>

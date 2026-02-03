@@ -2,32 +2,47 @@
   {
     "id": "clsu-cat",
     "title": "CLSU College Admission Test Online Application System",
+    "link": "https://clsucat.ctec.clsu.edu.ph/",
     "date": "2021",
     "role": "Full-Stack Developer",
     "image": "clsucat mockup.png",
-    "description": "A web-based application system that enables prospective students to apply for the CLSU College Admission Test by submitting personal information, academic details, and required documents online. The system streamlines the application process, improves data accuracy, and supports efficient admission screening.",
+    "summary": "A web-based application system that enables prospective students to apply for the CLSU College Admission Test by submitting personal information, academic details, and required documents online. The system streamlines the application process, improves data accuracy, and supports efficient admission screening.",
+    "description": [
+      "Built and maintained the CLSU College Admission Test Online Application System using <span class='text-primary font-medium'>PHP, JavaScript, MySQL, and REST APIs</span>, transforming the process from a manual, paper-based workflow to a fully digital platform. Developed a <span class='text-primary font-medium'>seamless, mobile-first online application process</span>, enabling prospective students to submit <span class='text-primary font-medium'>application form and required documents</span>, and receive their <span class='text-primary font-medium'>test permits online</span>. Integrated the <span class='text-primary font-medium'>Gemini AI API for photo verification</span> to ensure applicants met strict ID photo requirements. Optimized the system for <span class='text-primary font-medium'>accessibility and usability</span>, reducing on-site queues and increasing annual applicants from <span class='text-primary font-medium'>8,000+</span> to over <span class='text-primary font-medium'>20,000+</span>. Additionally, the system supports administrators by <span class='text-primary font-medium'>automating UNIFast application forms, generating reports, and providing real-time dashboard analytics</span> for faster and more efficient admission processing."
+    ],
     "contributions": [
       "Designed and developed the entire system using PHP, JavaScript, MySQL, and REST API.",
       "Built an end-to-end online application workflow, replacing manual, paper-based submissions.",
-      "Integrated Gemini API for AI-powered photo verification to ensure applicants met strict ID photo requirements.",
+      "Integrated Gemini AI API for AI-powered photo verification to ensure applicants met strict ID photo requirements.",
       "Optimized user experience for accessibility, reducing manual workload and eliminating long queues."
     ],
     "tech": [
       { "name": "PHP" },
+      { "name": "HTML/CSS" },
+      { "name": "Bootstrap" },
       { "name": "JavaScript" },
+      { "name": "Axios" },
       { "name": "MySQL" },
       { "name": "REST API" },
-      { "name": "Gemini API" }
+      { "name": "Gemini AI API" },
+      { "name": "Postman" }
     ],
     "impact": "Increased the number of applicants each year, breaking all-time student application records."
   },
   {
     "id": "clsu-tfs",
     "title": "CLSU Thesis/Dissertation Formatting Systems",
+    "link": "https://tfs.clsu-ovpaa.edu.ph/",
     "date": "2023",
     "role": "Full-Stack Developer",
     "image": "tfs mockup.png",
-    "description": "A document processing tool that automatically applied official university formatting guidelines to academic manuscripts.",
+    "summary": "A document processing tool that automatically applied official university formatting guidelines to academic manuscripts.",
+    "description": [
+      "Designed, developed, and deployed a document processing system using <span class='font-medium text-primary'>Laravel</span> that automatically applies <span class='font-medium text-primary'>official university formatting guidelines</span> to academic theses and research papers. The system generates an <span class='font-medium text-primary'>editable Word (DOCX) document</span> based on an approved university template, allowing students to <span class='font-medium text-primary'>bootstrap their manuscripts</span> while retaining full control for final revisions.",
+      "Implemented a <span class='font-medium text-primary'>rich text editor</span> that mimics common word-processing tools found in Microsoft Word, enabling users to structure and format content directly within the system.",
+      "Integrated <span class='font-medium text-primary'>secure external storage</span> to safely handle file uploads within the editor, and added <span class='font-medium text-primary'>dashboard analytics</span> to monitor system usage and reports.",
+      "Due to inherent limitations in automated formatting—particularly for <span class='font-medium text-primary'>tables and figures</span>—the system encourages users to <span class='font-medium text-primary'>review and refine</span> the generated document prior to final submission."
+    ],
     "contributions": [
       "Built a formatting system with Laravel, PHP, JavaScript, MySQL, and REST API.",
       "Enabled students to create manuscripts and instantly generate format-compliant versions, removing dependency on third-party formatting services.",
@@ -36,31 +51,44 @@
     "tech": [
       { "name": "PHP" },
       { "name": "Laravel" },
+      { "name": "HTML/CSS" },
+      { "name": "Bootstrap" },
       { "name": "JavaScript" },
+      { "name": "Axios" },
       { "name": "MySQL" },
-      { "name": "REST API" }
+      { "name": "REST API" },
+      { "name": "Google Drive API" },
+      { "name": "Postman" }
     ],
     "impact": "Eliminated the need for students to pay third-party services for thesis formatting."
   },
   {
     "id": "clsu-pfe",
     "title": "CLSU Faculty Performance Evaluation System",
+    "link": "https://evaluation.ctec.clsu.edu.ph/",
     "date": "2025",
     "role": "Full-Stack Developer",
     "image": "evaluation mockup.png",
-    "description": "A web-based system designed to automate faculty performance evaluation by recording and managing evaluation data. The system improves efficiency, ensures data consistency, and supports academic decision-making.",
+    "summary": "A web-based system designed to automate faculty performance evaluation by recording and managing evaluation data. The system improves efficiency, ensures data consistency, and supports academic decision-making.",
+    "description": [
+      "Maintained and enhanced the existing CLSU Faculty Performance Evaluation System, <span class='text-primary font-medium'>improving UI/UX design</span> and implementing a <span class='text-primary font-medium'>mobile-first</span> experience' to better support faculty and student end-users. <span class='font-medium text-primary'>Optimized database performance</span> through strategic indexing and query improvements, resulting in <span class='font-medium text-primary'>faster system response times</span> and <span class='font-medium text-primary'>significantly improved report generation</span>. Delivered <span class='font-medium text-primary'>real-time evaluation reports</span> that reduced manual processing for administrators and enabled <span class='font-medium text-primary'>faster, data-driven decision-making</span>. As part of a legacy system enhancement, integrated an <span class='font-medium text-primary'>AI-powered feature (Gemini AI API)</span> to summarize evaluation comments, making it easier to identify <span class='font-medium text-primary'>faculty strengths and areas for improvement</span>.",
+      "Later on, <span class='font-medium text-primary'>developed a newer version</span> of the system aligned with <span class='font-medium text-primary'>updated CHED guidelines</span>, using <span class='font-medium text-primary'>modernized technologies built with Laravel</span>. Redesigned the <span class='font-medium text-primary'>database structure and system architecture</span> with an emphasis on <span class='font-medium text-primary'>data integrity, scalability, and long-term maintainability</span>, resulting in a <span class='font-medium text-primary'>robust and future-ready evaluation platform</span>."
+    ],
     "contributions": [
       "Rebuilt and maintained the evaluation platform using Laravel, PHP, JavaScript, MySQL, and REST API.",
       "Designed and implemented a normalized database schema for scalability and improved performance.",
       "Delivered real-time evaluation reports, reducing manual work for administrators and improving decision-making.",
-      "(Legacy System Contribution) Integrated Gemini API to summarize faculty evaluation feedback, enhancing report readability."
+      "(Legacy System Contribution) Integrated Gemini AI API to summarize faculty evaluation feedback, enhancing report readability."
     ],
     "tech": [
       { "name": "PHP" },
       { "name": "Laravel" },
+      { "name": "HTML/CSS" },
       { "name": "JavaScript" },
+      { "name": "Axios" },
       { "name": "MySQL" },
-      { "name": "REST API" }
+      { "name": "REST API" },
+      { "name": "Postman" }
     ],
     "impact": "Streamlined evaluation workflow and improved accessibility of faculty evaluation data."
   }
