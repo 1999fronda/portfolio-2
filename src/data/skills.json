@@ -5,6 +5,7 @@
       { "name": "HTML", "icon": "i-devicon-html5" },
       { "name": "CSS", "icon": "i-devicon-css3" },
       { "name": "JavaScript", "icon": "i-devicon-javascript" },
+      { "name": "TypeScript", "icon": "i-devicon-typescript" },
       { "name": "jQuery", "icon": "i-devicon-jquery" },
       { "name": "Vue.js", "icon": "i-material-icon-theme:vue" },
       { "name": "Inertia.js", "icon": "i-heroicons-rocket-launch" },
