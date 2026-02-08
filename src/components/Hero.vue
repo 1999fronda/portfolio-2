@@ -19,7 +19,10 @@ const userStore = useUserStore()
                 duration: 0.4,
                 delay: 0.1
             }">
-                Hi, I am <span class="text-primary">{{ userStore.user.firstName }}</span>
+                Hi, I am
+                <GradientText :text="userStore.user.firstName"
+                    :colors="['#40ffaa', '#4079ff', '#40ffaa', '#4079ff', '#40ffaa']" :animation-speed="8"
+                    :show-border="false" class-name="inline" />
             </Motion>
         </template>
         <template #description>
@@ -33,7 +36,11 @@ const userStore = useUserStore()
                 duration: 0.4,
                 delay: 0.2
             }">
-                A <span class="text-primary">{{ userStore.user.title }}</span> with a strong focus on Laravel, building
+                A
+                <GradientText :text="userStore.user.title"
+                    :colors="['#40ffaa', '#4079ff', '#40ffaa', '#4079ff', '#40ffaa']" :animation-speed="8"
+                    :show-border="false" class-name="inline" /> with a strong focus on Laravel,
+                building
                 clean, scalable, and user-focused web
                 applications.
             </Motion>
